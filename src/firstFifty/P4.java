@@ -37,5 +37,12 @@ public class P4 {
 		}
 
 	}
+	
+	/*
+	 * An alternate method could be done by showing first that all palindromic numbers
+	 * have the form: 11(9091a + 910b + 100c) and solving from there, but I'm
+	 * foregoing that in favor of solving the other problems.
+	 */
+	
 
 }
