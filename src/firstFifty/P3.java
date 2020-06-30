@@ -26,7 +26,7 @@ public class P3 {
 			
 			if(num % primes.get(i) == 0) {
 				System.out.println(primes.get(i));
-				i = -1;
+				return;
 			}
 		
 		}
