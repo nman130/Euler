@@ -1,6 +1,6 @@
 package firstFifty;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import utilities.BasicPrimeFinder;
 
@@ -20,7 +20,7 @@ public class P3 {
 		
 		BasicPrimeFinder primeFinder = new BasicPrimeFinder((int) Math.sqrt(num));
 		
-		ArrayList<Integer> primes = primeFinder.getPrimes();
+		List<Integer> primes = primeFinder.getPrimes();
 		
 		for(int i = primes.size() - 1; i > -1; i--) {
 			

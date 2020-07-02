@@ -1,6 +1,7 @@
 package utilities;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /*
  * This class' sole use is to function as a prime number sieve. It uses the Sieve of Eratosthenes to find
@@ -38,7 +39,7 @@ public class BasicPrimeFinder {
 		}
 	}
 	
-	public ArrayList<Integer> getPrimes(){
+	public List<Integer> getPrimes(){
 		return this.primes;
 	}
 
