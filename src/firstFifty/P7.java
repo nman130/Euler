@@ -18,13 +18,11 @@ public class P7 {
 	public static void main(String[] args) {
 		
 		List<Integer> primes = null;
-		BasicPrimeFinder primeFinder = null;
 		int sieveMax = 100000;
 		
 		while(primes == null || primes.size() < 10001) {
 			
-			primeFinder = new BasicPrimeFinder(sieveMax);
-			primes = primeFinder.getPrimes();
+			primes = BasicPrimeFinder.getPrimes(sieveMax);
 			sieveMax *= 10;
 			
 		}

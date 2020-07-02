@@ -18,9 +18,7 @@ public class P3 {
 		
 		long num = 600851475143L;
 		
-		BasicPrimeFinder primeFinder = new BasicPrimeFinder((int) Math.sqrt(num));
-		
-		List<Integer> primes = primeFinder.getPrimes();
+		List<Integer> primes = BasicPrimeFinder.getPrimes((int) Math.sqrt(num));
 		
 		for(int i = primes.size() - 1; i > -1; i--) {
 			

@@ -14,8 +14,7 @@ public class P10 {
 	 */
 	public static void main(String[] args) {
 		
-		BasicPrimeFinder primeFinder = new BasicPrimeFinder(2000000);
-		List<Integer> primes = primeFinder.getPrimes();
+		List<Integer> primes = BasicPrimeFinder.getPrimes(2000000);
 		long sum = 0;
 		
 		for(int prime : primes) {
